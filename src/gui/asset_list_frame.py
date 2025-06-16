@@ -27,8 +27,8 @@ class AssetListFrame(ttk.Frame):
         self.tree.heading("#0", text="")
         self.tree.heading("selected", text="Select")
         self.tree.heading("type", text="Type")
-        self.tree.heading("path", text="Path")
-        self.tree.heading("hierarchy", text="Hierarchy")
+        self.tree.heading("path", text="AssetName")
+        self.tree.heading("hierarchy", text="Group")
         
         # Add scrollbar
         scrollbar = ttk.Scrollbar(self, orient="vertical", command=self.tree.yview)
